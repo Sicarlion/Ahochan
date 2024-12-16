@@ -7,6 +7,7 @@ mod utils;
 use commands::clean::clean;
 use commands::fetch::fetch;
 use commands::hello::hello;
+use commands::check::check;
 
 use poise::serenity_prelude as serenity;
 use poise::{Framework, FrameworkOptions};
@@ -40,7 +41,7 @@ async fn ahochan(#[shuttle_runtime::Secrets] secret_store: SecretStore) -> Shutt
 
     let framework = Framework::builder()
         .options(FrameworkOptions {
-            commands: vec![hello(), fetch(), clean()],
+            commands: vec![hello(), fetch(), clean(), check()],
             ..Default::default()
         })
         .setup(|ctx, _ready, framework| {
