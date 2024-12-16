@@ -1,3 +1,9 @@
-# Serenity Weather Forecast Bot with Shuttle
+# Ahochan
 
-For a full tutorial on how to build and set up this bot, please refer to [Shuttle docs](https://docs.shuttle.rs/templates/tutorials/discord-weather-forecast)
+A general, multi-purpose bot, made solely for Ahoge Discord Server Branches.
+
+This bot is made possible with Rust, Serenity and Poise Framework.
+
+> I HELD NO RESPONSIBLE FOR ANY BRAIN CELL DAMAGE HAPPENS WHILE READING MY CODE.
+> These codebase is messy af as I'm still a beginner rustaceans and you might just want to use it solely for.. researching? Sowwy .~.
+> (I'm also learning how to use Github lol)
