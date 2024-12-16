@@ -1,3 +1,3 @@
-# Serenity Weather Forecast Bot with Shuttle
+# Ahochan
 
-For a full tutorial on how to build and set up this bot, please refer to [Shuttle docs](https://docs.shuttle.rs/templates/tutorials/discord-weather-forecast)
+A general purpose Discord Bot for Ahoge Server branches.
